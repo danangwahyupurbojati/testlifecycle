@@ -1,25 +1,34 @@
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import StateComp from './components/StateComp';
+import ClassLifeCycle from './components/ClassLifeCycle';
+import FuncLifeCycle from './FuncLifeCycle';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [hide, setHide] = useState(false);
+
+    const handleHide = () => {
+        setHide(!hide);
+    }
+    return (
+        <div className="App">
+
+            <button onClick={handleHide}>
+                mount life cycle
+            </button>
+
+            {
+                hide && (
+                    <div>
+                        <ClassLifeCycle />
+                        <FuncLifeCycle />
+                    </div>
+                )
+            }
+
+        </div>
+    );
 }
 
 export default App;
