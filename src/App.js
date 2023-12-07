@@ -26,7 +26,8 @@ function App() {
                     </div>
                 )
             }
-
+            <iframe src="https://mitra10-ecatalog.testingnow.me/" title="iframe-ecatalog"/>
+            <iframe src="https://www.w3schools.com" title="w3cs" />
         </div>
     );
 }
