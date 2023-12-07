@@ -26,7 +26,7 @@ function App() {
                     </div>
                 )
             }
-            <iframe src="https://mitra10-ecatalog.testingnow.me/" title="iframe-ecatalog" width="100%" height="100%"/>
+            <iframe src="https://mitra10-ecatalog.testingnow.me/" title="iframe-ecatalog" width="100%" height="600px"/>
         </div>
     );
 }
