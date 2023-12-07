@@ -15,7 +15,7 @@ function App() {
         <div className="App">
 
             <button onClick={handleHide}>
-                mount life cycle xxxas
+                mount life cycle xxxasas
             </button>
 
             {
@@ -26,7 +26,7 @@ function App() {
                     </div>
                 )
             }
-            <iframe src="https://mitra10-ecatalog.testingnow.me/" title="iframe-ecatalog" width="100%" height="400px"/>
+            <iframe src="https://mitra10-ecatalog.testingnow.me/" title="iframe-ecatalog" width="100%" height="100%"/>
         </div>
     );
 }
