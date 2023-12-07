@@ -15,7 +15,7 @@ function App() {
         <div className="App">
 
             <button onClick={handleHide}>
-                mount life cycle
+                mount life cycle xxx
             </button>
 
             {
