@@ -13,7 +13,34 @@ function App() {
     }
     return (
         <div className="App">
-
+             <iframe
+                title="installation-service"
+                // src={generatePimUrl(data?.getInstallationGuide?.installation_guide)}
+                src="https://pdfobject.com/pdf/sample.pdf"
+                // src={"https://pimcore.testingnow.me/pdf/1/1/1100000190_installation_guide.pdf"}
+                // width="800"
+                // height="600"
+                style={{
+                    border: '1px solid blue',
+                    width: '100%',
+                    height: '600px',
+                    objectFit: 'cover',
+                }}
+            />
+            <iframe
+                title="installation-service"
+                // src={generatePimUrl(data?.getInstallationGuide?.installation_guide)}
+                // src={"https://pdfobject.com/pdf/sample.pdf"}
+                src="https://pimcore.testingnow.me/pdf/1/1/1100000190_installation_guide.pdf"
+                // width="800"
+                // height="600"
+                style={{
+                    border: '1px solid blue',
+                    width: '100%',
+                    height: '600px',
+                    objectFit: 'cover',
+                }}
+            />
             <button onClick={handleHide}>
                 mount life cycle xxxasas
             </button>
