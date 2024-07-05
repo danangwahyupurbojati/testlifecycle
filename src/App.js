@@ -54,6 +54,14 @@ function App() {
                 )
             }
             <iframe src="https://mitra10-ecatalog.testingnow.me/customer/account/login?token=ewogICJ1c2VybmFtZSI6InBpbS50ZXN0QG1pdHJhMTAuY29tIiwKICAicGFzc3dvcmQiOiJjYXR1cjEwIiwKICAic3RvcmVJZCI6MTAwMzgKfQ==" title="iframe-ecatalog" width="100%" height="700px"/>
+            <div>
+                <h3>coba test</h3>
+                <iframe
+                    src="-"
+                    title="YouTube video player"
+                    allowFullScreen
+                />
+            </div>
         </div>
     );
 }
