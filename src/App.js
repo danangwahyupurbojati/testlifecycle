@@ -11,6 +11,7 @@ function App() {
     const handleHide = () => {
         setHide(!hide);
     }
+    return (<h1>halo test app</h1>);
     return (
         <div className="App">
              <iframe
