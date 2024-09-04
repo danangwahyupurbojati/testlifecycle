@@ -4,6 +4,9 @@
     "namespace": "com.katabelanjaapp",
     "package_name": "com.katabelanjaapp",
     "sha256_cert_fingerprints":
-      ["03:AF:EB:43:C5:A5:D1:E4:7E:0E:F6:66:37:58:D5:7F:E9:CB:7B:C2:E9:4F:6A:5D:F8:A5:4C:FD:11:3C:A6:56"]
+      [
+        "03:AF:EB:43:C5:A5:D1:E4:7E:0E:F6:66:37:58:D5:7F:E9:CB:7B:C2:E9:4F:6A:5D:F8:A5:4C:FD:11:3C:A6:56",
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+      ],
   }
 }]
