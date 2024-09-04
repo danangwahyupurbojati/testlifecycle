@@ -1,7 +1,7 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
-    "namespace": "com.katabelanjaapp",
+    "namespace": "android_app",
     "package_name": "com.katabelanjaapp",
     "sha256_cert_fingerprints":
       [
