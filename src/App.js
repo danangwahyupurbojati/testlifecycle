@@ -43,7 +43,7 @@ function App() {
                 }}
             />
             <button onClick={handleHide}>
-                mount life cycle xxxasas
+                mount life cycle xxxasasxxs
             </button>
 
             {
